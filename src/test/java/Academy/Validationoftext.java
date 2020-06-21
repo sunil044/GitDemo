@@ -38,6 +38,8 @@ public class Validationoftext extends BrowserINIT{
 	@AfterTest
 	public void clse()
 	{
+		System.out.println("closing browser");
+		System.out.println("closing browser123");
 		driver.close();
 	}
 
